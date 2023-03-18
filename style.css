@@ -1,0 +1,42 @@
+#container_app{
+	width: 300px;
+	margin: auto;
+	margin-top: 10%;
+	border: 1px solid black;
+	text-align: center;
+}
+#box_plansza{
+	width: 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+.button{
+ height: 50px;
+ width: 50px;
+ padding: 0px;
+ margin: auto;
+ padding: 22px;
+background-color: white;
+
+}
+
+#box_buttons{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#button_reset{
+margin: 10px;
+padding: 3px 15px 3px 15px;
+}
+
+#preload{
+	background-image: url('img/X.png');
+}
+#preload1{
+	background-image: url('img/O.png');
+}
+.blokada{
+	pointer-events: none;
+}
